@@ -1,0 +1,91 @@
+*{margin:0;}
+body{
+    background-image: linear-gradient(to left,#fa9c65,#f0c479);
+    height: 100vh;
+    display:grid;
+    grid-template-areas:
+      "header header"
+       "main main"
+      "footer footer";
+    
+      grid-template-rows:70px 1fr 20px;
+    grid-template-columns:1fr 1fr ;
+
+}
+header{
+    grid-area: header ;
+    text-align: center;
+    background-color: rgb(255, 149, 11);
+    padding:15px 0;
+}
+main{
+    grid-area:main;
+    margin: auto;
+}
+
+footer{
+    grid-area: footer;
+    background-color:rgb(255, 149, 11);
+    text-align: center  ;
+}
+.titulo{
+    margin: auto;
+}
+.caixa{
+    width:auto;
+    height:auto;
+    background-color: rgb(255, 250, 230);
+    padding: 20px 10px;
+    border-radius:10px;
+    box-shadow:5px 4px 20px black;
+    text-align: center;
+}
+p{
+    margin:15px 0 5px 0;
+
+}
+button{
+    margin-top:30px ;
+    background-color: #fa9c65;
+    font-size: 15px;
+    border-radius: 8px;
+    border:solid 1px #ff7b2f;
+    padding: 5px;
+    
+}
+
+table{
+    margin-top:20px;
+    border-collapse: collapse;
+    width:auto;
+    height:auto;
+    background-color: rgb(255, 250, 230);
+    padding: 20px ;
+    border-radius:5px;
+}
+th{
+    padding: 5px 20px;
+}
+td{
+    padding-left:5px;
+}
+.img_css{
+    width:22px;
+    padding-left:9px;
+}
+.center {
+    text-align: center;
+}
+#nome{
+     background-color: #fde7da;
+     border: #ff7b2f groove 2px;
+     width:90%;
+     outline: none;
+     text-align: center;
+}
+#preco{
+        background-color: #fde7da;
+        border: #ff7b2f groove 2px;
+        outline: none;
+        text-align: center;
+}
