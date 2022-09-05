@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOJA/ikaro</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Loja 01</h1>
+        
+    </header>
+    
+    <main>
+    
+        <div class="caixa">
+            <div class="titulo">
+                
+                <h2>Lista de produtos </h2>
+            </div>
+            <div id="cxCenter">
+                <div>
+                    <p>Nome Produto</p>
+                    <input type="text" id="nome" >
+                </div>
+                <div>
+                    <p>Valor</p>
+                    <input type="number" id="preco">
+                </div>
+                <div>
+                    <button onclick="produto.salvar()" id ="buttonsalv">Salvar</button>
+                    <button onclick="produto.cancelar()">Cancelar</button>
+                </div>
+            </div>
+        </div>
+        <tabela class="tabela" id="tabela">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Produto</th>
+                        <th>Valor</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id ="tbody">
+                   
+                </tbody>
+            </table>
+        </tabela>
+    </main>
+   
+
+    <footer>
+        <h4>IKARO SILVA </h4>
+    </footer>
+</body>
+</html>
